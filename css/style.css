@@ -37,7 +37,7 @@ font-family: Space_Grotesk;
 font-size: 4.8rem;
 font-style: normal;
 font-weight: 600;
-line-height: 5.6rem; /* 116.667% */
+line-height: 5.6rem; 
 letter-spacing: -0.192rem;
 margin: 0 0 2.4rem 0;
 }
@@ -48,7 +48,7 @@ margin: 0 0 2.4rem 0;
     font-size: 4.4rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 5.2rem; /* 118.182% */
+    line-height: 5.2rem; 
     letter-spacing: -0.176rem;
     margin: 1.2rem 0 1.6rem 0;
 }
@@ -58,7 +58,7 @@ margin: 0 0 2.4rem 0;
 font-size: 4.4rem;
 font-style: normal;
 font-weight: 600;
-line-height: 5.2rem; /* 118.182% */
+line-height: 5.2rem;
 letter-spacing: -0.176rem;
 margin: 1.2rem 0 3.2rem 0;
 }
@@ -69,7 +69,7 @@ margin: 1.2rem 0 3.2rem 0;
 font-size: 4.4rem;
 font-style: normal;
 font-weight: 600;
-line-height: 5.2rem; /* 118.182% */
+line-height: 5.2rem; 
 letter-spacing: -0.176rem;
 justify-content: center;
 align-items: center;
@@ -112,7 +112,7 @@ letter-spacing: -0.192rem;
 }
 .header{
     display: flex;
-    width: 0 auto;
+    width: auto;
     padding: 1.8rem 1.6rem;
     justify-content: space-between;
     align-items: center;
@@ -151,9 +151,7 @@ background: var(--second-color);
 justify-content: center;
 align-items: center;
 }
-.otstyp{
-    margin: 2rem;
-}
+
 .ssolca{
     color: var(--second-color);
     font-family: Space_Grotesk;
@@ -174,6 +172,7 @@ font-weight: 400;
 line-height: 2.6rem; /* 144.444% */
 margin: 0;
 align-self: stretch;
+margin: 2rem;
 }
 .textonwite2{
     color: rgba(26, 30, 66, 0.80);
@@ -274,8 +273,8 @@ margin: 0;
 padding: 0  ;
 }
 .startsection_ul_imgsize{
-    width: auto;
-    height: auto;
+    width: 17rem;
+    height: 4rem;
 }
 .imgsize{
     width: 100%;
@@ -291,7 +290,7 @@ line-height: 2.4rem; /* 150% */
 margin: 0;
 align-self: stretch;
 }
-.co1{
+.WhyRewallet_element{
     display: flex;
     padding: 3.2rem;
     flex-direction: column;
@@ -302,17 +301,7 @@ align-self: stretch;
     margin: 0 0 2.4rem 0;
     
 } 
-.co2{
-    display: flex;
-    padding: 3.2rem;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: stretch;
-    border-radius: 0.8rem;
-    background: #2A2D51;
-    margin: 0 0 4.8rem 0;
-      
-}   
+
 .ulsettings{
     padding: 0;
     margin: 0;
@@ -332,7 +321,7 @@ margin: 0;
     width: 4.4rem;
 height: 4.4rem;
 }
-.startsection{
+.startsection1_set{
     display: flex;
 padding: 4rem 1.6rem;
 flex-direction: column;
@@ -342,7 +331,7 @@ background: #FFF;
 width: auto;
 }
 
-.sectionPO2{
+.section2_set{
     background: var(--fist-color);
     display: flex;
 width: auto;
@@ -352,7 +341,7 @@ justify-content: center;
 align-items: center;
 
 }
-.sectionPO3{
+.section3_set{
     display: flex;
 width: auto;
 padding: 6rem 1.6rem;
@@ -361,7 +350,7 @@ justify-content: center;
 align-items: center;
 
 }
-.sectionPO4{
+.section4_set{
     background:var(--fist-color);
     display: flex;
 width: auto;
@@ -371,7 +360,7 @@ justify-content: center;
 align-items: center;
 
 }
-.sectionPO5{
+.section5_set{
     display: flex;
 width: auto;
 padding: 6rem 1.6rem;
@@ -379,7 +368,7 @@ flex-direction: column;
 align-items: center;
 
 }
-.sectionPO6{
+.section6_set{
     display: flex;
 padding: 6rem 1.6rem;
 flex-direction: column;
@@ -398,7 +387,8 @@ align-self: stretch;
 border-radius: 0.8rem;
 background: #FFF;
 box-shadow: 0rem 1.2rem 1.6rem -0.4rem rgba(16, 24, 40, 0.05);
-
+margin: 0;
+padding: 0;
 }
 .Testimonials_text{
     color: var(--gray-500, #667085);
@@ -408,7 +398,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 2.6rem; 
 align-self: stretch;
-
+margin: 0;
+padding: 0;
 }
 .Testimonials_text_A{
     color: var(--Dark-Blue, #1A1E42);
@@ -445,7 +436,9 @@ font-family: Space_Grotesk;
 font-size: 1.8rem;
 font-style: normal;
 font-weight: 400;
-line-height: 2.6rem; /* 144.444% */
+line-height: 2.6rem; 
+margin: 0;
+padding: 0;
 }
 .blog_elements{
     display: flex;
@@ -457,8 +450,11 @@ align-self: stretch;
 .blog_conteiner_info{
     display: flex;
 justify-content: space-between;
-align-items: center;
 align-self: stretch;
+align-items: baseline;
+}
+.blog_conteiner_elements{
+    align-items: baseline;
 }
 .blog_text_style{
     color: var(--Dark-Blue, #1A1E42);
@@ -470,7 +466,7 @@ line-height: 3rem; /* 136.364% */
 flex: 1 0 0;
 text-decoration: none;
 }
-.sectionPO7{
+.section7_set{
     display: flex;
 width: auto;
 padding: 6rem 1.6rem;
@@ -478,7 +474,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
-.sectionPO8{
+.section8_set{
     display: flex;
 padding: 6rem 1.6rem;
 flex-direction: column;
