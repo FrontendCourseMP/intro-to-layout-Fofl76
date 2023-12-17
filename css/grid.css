@@ -301,8 +301,8 @@ text-decoration: none;
 .galery__wrapper {
     max-width: 900px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 400px));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 225px));
     grid-auto-flow: row;
     margin: 0 auto;
     padding: 0 0.8rem;
@@ -310,15 +310,19 @@ text-decoration: none;
 }
 .galery__card {
     display: grid;
-    grid-column: span 1;
-    grid-row: span 1;
-    width: 100px;
+grid-column: 1/2;
+grid-row: span 1;
+width: 400px;
+grid-template-columns: 100%;
+grid-template-rows: 100%;
 }
 
 .image {
-    width: 100px;
-    border-radius: 1rem;
-    grid-area: 1/1/-1/-1;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
 }
 
 .link {
@@ -331,8 +335,9 @@ text-decoration: none;
     border: 0cm;
     border-radius: 1.2rem;
     padding: 0.2rem 0.2rem;
-    margin: 4rem 1rem;
     grid-area: 1/1/-1/-1;
+    text-align: center;
+    display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
