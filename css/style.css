@@ -292,11 +292,7 @@ margin: 0;
 align-self: stretch;
 }
 .WhyRewallet_element{
-display: flex;
 padding: 3.2rem;
-flex-direction: column;
-align-items: flex-start;
-align-self: stretch;
 border-radius: 0.8rem;
 background-color: var(--fifth-color);
 margin: 0 0 2.4rem 0;
@@ -329,11 +325,29 @@ background-color: var(--white);
 
 .section2_set{
 background-color: var(--fist-color);
-background-image: url("/IMG/Noise.png");
-background-repeat: no-repeat;
-background-size: auto;
-background-position-x: 5rem;
-
+position: relative;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+.section2_set::before{
+content: '';
+box-shadow: 0px -2px 20px 0px rgba(255, 255, 255, 0.15) inset;
+width: 800px;
+height: 800px;
+border-radius: 100%;
+position: absolute;
+right: 0rem;
+bottom: 95rem;
+}
+.section2_set::after{
+content: '';
+box-shadow: 0px -2px 20px 0px rgba(255, 255, 255, 0.15) inset;
+width: 800px;
+height: 800px;
+border-radius: 100%;
+position: absolute;
+left: 4rem;
+top: 100rem;
 }
 .section3_set{
 width: auto;
@@ -341,7 +355,35 @@ width: auto;
 }
 .section4_set{
 background-color:var(--fist-color);
-
+position: relative;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+.section4_1_set{
+  background-color:var(--fist-color);
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.section4_set::before{
+  content: '';
+  box-shadow: 0px -2px 20px 0px rgba(255, 255, 255, 0.15) inset;
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  position: absolute;
+  right: 1rem;
+  bottom: 65rem;
+}
+.section4_1_set::after{
+  content: '';
+  box-shadow: 0px -2px 20px 0px rgba(255, 255, 255, 0.15) inset;
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  position: absolute;
+  left: 2rem;
+  top: 100rem;
 }
 .section5_set{
 display: flex;
@@ -370,11 +412,8 @@ font-weight: 600;
 line-height: normal;
 }
 .our_process_numbers_back{
-display: flex;
 padding: 1.2rem 1rem;
 width: 4.8rem;
-justify-content: center;
-gap: 1rem;
 border-radius: 0.8rem;
 background: var(--fifth-color);
 margin: 2rem 0 3rem 0;
@@ -506,9 +545,6 @@ align-items: center;
 .li_decoretion{
 list-style-type: none;
 }
-.section8_set{
-
-}
 .section8_ulsettings{
 display: flex;
 flex-direction: column;
@@ -592,6 +628,30 @@ height: auto;
 border-radius: 0.8rem;
 background-color: var(--fist-color);
 margin: 0 auto;
+position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.GetinTouch_style::before{
+  content: '';
+  box-shadow: 0px -2px 20px 0px rgba(255, 255, 255, 0.15) inset;
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  position: absolute;
+  right: 0rem;
+  bottom: 25rem; 
+}
+.GetinTouch_style::after{
+  content: '';
+  box-shadow: 0px -2px 20px 0px rgba(255, 255, 255, 0.15) inset;
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
 }
 .GetinTouch_section{
 display: flex;
