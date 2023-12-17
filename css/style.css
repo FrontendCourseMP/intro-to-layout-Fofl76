@@ -650,8 +650,8 @@ position: relative;
   height: 800px;
   border-radius: 100%;
   position: absolute;
-  left: 0rem;
-  top: 0rem;
+  left: 5rem;
+  top: 25rem;
 }
 .GetinTouch_section{
 display: flex;
