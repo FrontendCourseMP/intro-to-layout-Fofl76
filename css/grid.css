@@ -310,9 +310,6 @@ text-decoration: none;
 }
 .galery__card {
     display: grid;
-grid-column: 1/2;
-grid-row: span 1;
-width: 400px;
 grid-template-columns: 100%;
 grid-template-rows: 100%;
 }
