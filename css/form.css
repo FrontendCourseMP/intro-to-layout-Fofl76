@@ -180,7 +180,6 @@ padding: 16px 16px;
       .form__submit-button {
         margin-top: 24px;
         background-color: var(--fourth-color);
-        color: ;
         border-radius: 100vmax;
         padding: 16px 32px;
         transition: filter 0.2s ease-out;
