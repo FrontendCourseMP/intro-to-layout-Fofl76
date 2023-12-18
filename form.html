@@ -82,12 +82,23 @@
               <span class="label__row">
                 <span>When to call</span>
               </span>
-              <select class="form__input" name="call-time" id="call-time">
-                <option value="morning">Morning</option>
-                <option value="afternoon">Afternoon</option>
-                <option value="evening">Evening</option>
-                <option value="night">Night</option>
-              </select>
+                 <fieldset class="form__input" name="call-time" id="call-time">
+                
+                  <div>
+                    <input type="radio" id="huey" name="drone" value="huey" checked />
+                    <label for="Morning">Morning  </label>
+                  </div>
+                
+                  <div>
+                    <input type="radio" id="dewey" name="drone" value="dewey" />
+                    <label for="Afternoon">Afternoon</label>
+                  </div>
+                
+                  <div>
+                    <input type="radio" id="louie" name="drone" value="louie" />
+                    <label for="Evening">Evening</label>
+                  </div>
+                </fieldset>
             </label>
           </fieldset>
           <button class="form__button form__submit-button" type="submit">Sign Up</button>
