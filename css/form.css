@@ -198,7 +198,29 @@ padding: 16px 16px;
       .form__submit-button:hover {
         filter: brightness(1.2);
       }
-      
+      .check{
+        padding-left: 1.2em ;
+      }
+      .option{
+        display: block;
+        margin-bottom: 0.25em;
+      }
+      .check__input{
+        position: absolute;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        
+      }
+      .check__box{
+        position: absolute;
+        width: 1em;
+        height: 1em;
+        background-image: url(/IMG/off.svg);
+      }
+      .check__input:checked + .check__box{
+        background-image: url(/IMG/on.svg);
+      }
       .form__reset-button {
         text-decoration: underline;
         margin-top: 8px;
