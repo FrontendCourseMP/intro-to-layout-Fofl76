@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header wrap_conteiner">
+        <a href="" class="header_logo">Rewallet
+        </a>
+        <button class="header_burgermenu"><img src="IMG/burgermenu.svg" alt="---"></button>
+    </header>
+    <main>
+      <div class="container">
+        <form class="form" method="post" action="//httpbin.org/post">
+          <h1 class="form__title">Register</h1>
+          <fieldset class="form__fieldset">
+            <label class="form__label">
+              <span class="label__row">
+                <span>Name <span class="form__label__required">*</span></span>
+                <span class="form__label__warning form__label__required">invalid</span>
+              </span>
+              <input class="form__input" type="text" name="name" id="name" placeholder="Vasiliy" required />
+            </label>
+            <label class="form__label">
+              <span class="label__row">
+                <span>Birthday <span class="form__label__required">*</span></span>
+                <span class="form__label__warning form__label__required">invalid</span>
+              </span>
+              <input class="form__input" type="date" name="birthday" id="birthday" required />
+            </label>
+            <label class="form__label">
+              <span class="label__row">
+                <span>Gender</span>
+              </span>
+              <select class="form__input" name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </label>
+            <label class="form__label">
+              <span class="label__row">
+                <span>Password <span class="form__label__required">*</span></span>
+                <span class="form__label__warning form__label__required">invalid</span>
+              </span>
+              <input class="form__input" type="password" name="password" required />
+            </label>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label class="form__label">
+              <span class="label__row">
+                <span>Email <span class="form__label__required">*</span></span>
+                <span class="form__label__warning form__label__required">invalid</span>
+              </span>
+              <input
+                class="form__input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="example@domain.com"
+                required
+              />
+            </label>
+            <label class="form__label">
+              <span class="label__row">
+                <span>Phone number <span class="form__label__required">*</span></span>
+                <span class="form__label__warning form__label__required">invalid</span>
+              </span>
+              <input
+                class="form__input"
+                type="tel"
+                name="tel-number"
+                id="tel-number"
+                placeholder="+7 (999) 999-99-99"
+                required
+              />
+            </label>
+            <label class="form__label">
+              <span class="label__row">
+                <span>When to call</span>
+              </span>
+              <select class="form__input" name="call-time" id="call-time">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+                <option value="night">Night</option>
+              </select>
+            </label>
+          </fieldset>
+          <button class="form__button form__submit-button" type="submit">Sign Up</button>
+          <button class="form__button form__reset-button" type="reset">clear form</button>
+        </form>
+        
+    </main>
+    <footer class="footerPO">
+        <div class="wrap_conteiner">
+            <h2 class="h22">ReWallet</h2>
+            <ul class="footer_ulsettings">
+                <li class="footer_ul_elements">
+                    <a href="" class="footer_ul_elements_style">Why ReWallet?</a>
+                </li>
+                <li class="footer_ul_elements">
+                    <a href="" class="footer_ul_elements_style">About us</a>
+                </li>
+                <li class="footer_ul_elements">
+                    <a href="" class="footer_ul_elements_style">How does it work</a>
+                </li>
+                <li class="footer_ul_elements">
+                    <a href="" class="footer_ul_elements_style">FAQ</a>
+                </li>
+                <li class="footer_ul_elements">
+                    <a href="" class="footer_ul_elements_style">Wallets</a>
+                </li>
+                <li class="footer_ul_elements">
+                    <a href="" class="footer_ul_elements_style">Blog</a>
+                </li>
+                <li class="footer_ul_elements">
+                    <a href="" class="footer_ul_elements_style">Imprint</a>
+                </li>
+                <li class="footer_ul_elements">
+                    <a href="" class="footer_ul_elements_style">Privacy Policy</a>
+                </li>
+                <li class="footer_ul_elements">
+                    <a href="grid.html" class="footer_ul_elements_style">Grid</a>
+                </li>
+            </ul>
+            <div class="mark_conyeiner">
+                <img src="" alt="">
+                <div>
+                    <img src="IMG/logo-white 1.svg" alt="">
+                    <div class="footer_satrs">
+                        <img src="IMG/Stars.svg" alt="">
+                        <p class="footer_text">4.9</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_end">
+                <ul class="footer_ul_contre ">
+                    <li>
+                        <img src="IMG/pngaaa 1.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="IMG/Bundesblock_edited-1 1.jpg" alt="">
+                    </li>
+                </ul>
+                <p class="copyright_style">© Copyright 2023 ReWallet</p>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
