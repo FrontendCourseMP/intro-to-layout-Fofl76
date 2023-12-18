@@ -81,7 +81,7 @@ padding: 16px 16px;
         display: flex;
         flex-direction: column;
         min-height: 100vh;
-        background-color: var(--text-accent);
+        background-color: var(--white);
       }
       
       main {
@@ -96,7 +96,7 @@ padding: 16px 16px;
         max-width: 550px;
         background-color: white;
         padding: 32px;
-        color: var(--text-main);
+        color: var(--fist-color);
         border-radius: 18px;
         box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
       }
@@ -129,11 +129,11 @@ padding: 16px 16px;
       }
       
       .form__label__required {
-        color: firebrick;
+        color: var(--second-color);
       }
       
       .form__label:focus-within {
-        color: var(--text-accent);
+        color: var(--fifth-color  );
       }
       
       .form__input {
@@ -144,15 +144,25 @@ padding: 16px 16px;
         padding: 12px 8px;
         border-radius: 10px;
         border: 1px solid #999;
-        color: var(--text-main);
+        color: var(--fifth-color);
       }
-      
+      .form__input_day_set{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-family: inherit;
+        font-size: 1.6rem;
+        padding: 12px 8px;
+        border-radius: 10px;
+        border: 1px solid #999;
+        color: var(--fifth-color);
+      }
       .form__input:focus {
-        outline-color: var(--text-accent);
+        outline-color: var(--fifth-color);
       }
       
       .form__input:invalid {
-        border-color: firebrick;
+        border-color: var(--second-color);
       }
       
       .form__label__warning {
@@ -179,7 +189,7 @@ padding: 16px 16px;
       
       .form__submit-button {
         margin-top: 24px;
-        background-color: var(--fourth-color);
+        background-color: var(--second-color);
         border-radius: 100vmax;
         padding: 16px 32px;
         transition: filter 0.2s ease-out;
@@ -193,7 +203,7 @@ padding: 16px 16px;
         text-decoration: underline;
         margin-top: 8px;
         background: none;
-        color: var(--text-accent);
+        color: var(--fifth-color);
       }
       
       .form__description-title {
@@ -201,7 +211,7 @@ padding: 16px 16px;
       }
       
       .form__description-title::first-letter {
-        color: firebrick;
+        color: var(--second-color);
       }
       
       .form__description-details {
@@ -213,7 +223,7 @@ padding: 16px 16px;
       }
       
       .form2__fieldset {
-        border: 1px solid var(--text-main);
+        border: 1px solid var(--fifth-color);
       }
       
       .form__checkbox-list {
@@ -226,27 +236,6 @@ padding: 16px 16px;
       .form__checkbox-label {
         display: flex;
         gap: 4px;
-      }
-      
-      .form__checkbox:checked + span {
-        text-decoration: line-through;
-        color: var(--text-secondary);
-      }
-      
-      .pseudoclasses li:nth-child(2n) span {
-        color: var(--text-accent);
-      }
-      
-      .pseudoclasses li:nth-child(2n) .form__checkbox:checked {
-        accent-color: var(--text-accent);
-      }
-      
-      .pseudoelements li:nth-child(2n + 1) span {
-        color: var(--text-accent);
-      }
-      
-      .pseudoelements li:nth-child(2n + 1) .form__checkbox:checked {
-        accent-color: var(--text-accent);
       }
       
       .footer {
