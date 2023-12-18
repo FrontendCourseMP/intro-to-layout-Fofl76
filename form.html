@@ -82,26 +82,20 @@
               <span class="label__row">
                 <span>When to call</span>
               </span>
-                 <fieldset class="" name="call-time" id="call-time">
-                
-                  <label class="check option">
-                    <input class="check__input" type="checkbox" id="Morning" name="drone" value="Morning" checked />
-                    <label for="Morning">Morning  </label>
-                    <span class="check__box"></span>
-                  </label>
-                
-                  <label class="check option">
-                    <input class="check__input" type="checkbox" id="Afternoon" name="drone" value="Afternoon" />
-                    <label for="Afternoon">Afternoon</label>
-                    <span class="check__box"></span>
-                  </label>
-                
-                  <label class="check option">
-                    <input class="check__input" type="checkbox" id="Evening" name="drone" value="Evening" />
-                    <label for="Evening">Evening</label>
-                    <span class="check__box"></span>
-                  </label>
-                </fieldset>
+              <fieldset class="radio">
+                <label class=".visually-hidden">
+                    <input class="visually-hidden" type="radio" name="bad-start">
+                    <span class="radio__description">Morning</span>
+                </label>
+                <label class=".visually-hidden">
+                    <input class="visually-hidden" type="radio" name="bad-start">
+                    <span class="radio__description">Afternoon</span>
+                </label>
+                <label class=".visually-hidden">
+                    <input class="visually-hidden" type="radio" name="bad-start">
+                    <span class="radio__description">Evening</span>
+                </label>
+            </fieldset>
             </label>
           </fieldset>
           <button class="form__button form__submit-button" type="submit">Sign Up</button>
