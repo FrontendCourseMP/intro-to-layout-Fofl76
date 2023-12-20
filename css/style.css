@@ -590,6 +590,18 @@ flex-direction: column;
 align-items: center;
 
 }
+.skip-link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 10px 15px;
+  color: #18191c;
+  background: #10F3AF;
+  transform: translateY(-100%);}
+  .skip-link:focus {
+    transform: translateY(20%);
+  }
 .section6_set{
 display: flex;
 padding: 6rem 1.6rem;
